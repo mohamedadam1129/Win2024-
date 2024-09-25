@@ -1,3 +1,124 @@
-:root{
-    default-font-family: sans-serif;
+.navbar{
+    background-color: antiquewhite;
+    height: 76px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar-container{
+    max-width: 1920px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar-left, .navbar-right{
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.navbar-logo{
+    margin-right: 20px;
+}
+
+.logo-image{
+    height: 40px;
+}
+
+.navbar-button{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.navbar-button:hover{
+    background-color: rgba(red, green, blue, alpha);
+}
+
+.sign-in{
+    margin-right: 10px;
+}
+
+.sign-up{
+    background-color: white;
+    color: #6366f1;
+}
+
+
+.switch{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-right: 20px;
+}
+
+.switch input{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+}
+
+.slider::before{
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+}
+
+input:checked + .slider{
+    background-color: #2196f3;
+}
+
+input:checked + .slider::before{
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round::before{
+    border-radius: 50%;
+}
+
+.navbar-button features{
+    float: right
+}
+
+.navbar-button{
+    background-color: #2196f3;
+    color: white;
+}
+
+.navbar-features{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    color: black;
 }
