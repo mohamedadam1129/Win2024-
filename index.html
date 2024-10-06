@@ -7,53 +7,173 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-         <div class="navbar-container">
-         <div class="navbar-left">
-            <a href="#" class="navbar-log">
-                <img src="solid logo.svg" alt="navbar-logo" class="logo-image">
-            </a>
-            <a href="#" class="navbar-features">features</a>
-         </div>
-        <div class="navbar-right">
-            <p>Dark mode </p>
-            <label class="switch">
-                <input type="checkbox" id="darkmodetoggle">
-                <span class="slider round"></span>
-            </label>
-            <button class="navbar-button sign-up">Sign in/up</button>
+    <header>
+        <nav>
+            <div class="navbar-container">
+            <div class="navbar-left">
+               <a href="#" class="navbar-log">
+                   <img src="solid logo.svg" alt="navbar-logo" class="logo-image">
+               </a>
+               <a href="#" class="navbar-features">features</a>
+            </div>
+           <div class="navbar-right">
+               <p>Dark mode </p>
+               <label class="switch">
+                   <input type="checkbox" id="darkmodetoggle">
+                   <span class="slider round"></span>
+               </label>
+   
+               <a href="#" class="navbar-button">
+                 <i class="fa-thin fa-user-large"></i>
+                 <span>Sign in / up</span>
+               </a>
+              
+               <button class="btn-mobile"><i class="fa-solid fa-bars"></i> 
+               </button>
+               
+           </div>
+            </div>
+       </nav>
+    </header>
         </div>
          </div>
     </nav>
-    <header>
-        <h1>Main heading</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui perferendis id vero deserunt perspiciatis velit dolor voluptatum beatae? Vitae consectetur facere soluta tempore reprehenderit perferendis, hic dignissimos temporibus inventore magnam.</p>
-        <div class="app-store-buttons">
-            <a href="#">Img appstore</a>
-            <a href="#">img google play store</a>
-        </div>
-    </header>
+    <main> 
+        <section id="hero">
+            <div class="container">
+                <div class="headline">
+                    <h1>Manage all your money in one app</h1>
+                    <p>We offer you a new generation of the mobile banking. Save, spend & manage money in your pocket.</p>
+                    <div class="button">
+                        <a class="btn-download-app" href="#"><img src="appstore.svg" alt="appstore"></a>
+                        <a class="btn-download-app" href="#"><img src="googleplay.svg" alt="googleplay"></a>
+                    </div>
+                    <a href="#" class="discover-more">
+                        <span class="btn-circle">
+                            <i class="fa-solid fa-chevron-down"></i> 
+                        </span>
+                        <span>Discover more</span> 
+                    </a>
+                </div>
+                <div class="hero-images">
+                  <img class="app-images" src="app images.svg">
+                </div>
+            </div>
+        </section>
+       
+        <section id="brands">
+            <div class="container">
+                <div class="logo-row">
+                    <img src="logo 1.svg" alt="logo 1" class="brand-logo">
+                    <img src="logo 2.svg" alt="logo 2" class="brand-logo">
+                    <img src="logo 3.svg" alt="logo 3" class="brand-logo">
+                    <img src="logo 4.svg" alt="logo 4" class="brand-logo">
+                    <img src="logo 5.svg" alt="logo 5" class="brand-logo">
+                    <img src="logo 6.svg" alt="logo 6" class="brand-logo">
+                </div>
+            </div>
+        </section>
+        
+        <section id="app-features">
+            <div class="container">
+                <div class="features-content">
+                    <div class="feature-image">
+                        <img src="app screenshot.svg" alt="App Screenshot">
+                    </div>
+                    <div class="feature-text">
+                        <h2>App Features</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat mollis egestas. Nam luctus lacinia ultricies. Pellentesque volutpat ligula est. Mattis fermentum, at nec lectus.</p>
+                        <div class="feature-grid">
+                            <div class="feature-item">
+                                <img src="icon easy payments.svg" alt="Easy Payments">
+                                <h3>Easy Payments</h3>
+                                <p>Et mollis purus tempor congue egestas quis sed suscipit tellus justo.</p>
+                            </div>
+                            <div class="feature-item">
+                                <img src="icon data security.svg" alt="Data Security">
+                                <h3>Data Security</h3>
+                                <p>Augue pulvinar justo, fermentum et ultricies ipsum consequat.</p>
+                            </div>
+                            <div class="feature-item">
+                                <img src="icon cost.svg" alt="Cost Statistics">
+                                <h3>Cost Statistics</h3>
+                                <p>Mattis ante ultricies non amet, purus in tortor. Orci volutpat ac massa.</p>
+                            </div>
+                            <div class="feature-item">
+                                <img src="icon support.svg" alt="Support 24/7">
+                                <h3>Support 24/7</h3>
+                                <p>A elementum, imperdiet enim, pretium etiam facilisi in aenean quam mauris.</p>
+                            </div>
+                            <div class="feature-item">
+                                <img src="icon cashback.svg" alt="Regular Cashback">
+                                <h3>Regular Cashback</h3>
+                                <p>Sit facilisis dolor arcu, fermentum vestibulum arcu ele elementum imperdiet.</p>
+                            </div>
+                            <div class="feature-item">
+                                <img src="icon top.svg" alt="Top Standards">
+                                <h3>Top Standards</h3>
+                                <p>Faucibus cursus maecenas lorem mattis. Felis et purus aliquam dui, faucibus.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <section class="logos">
-        <!--logos section content-->
-    </section>
+        <section id="how-it-works">
+            <div class="container">
+                <h2>How Does It Work?</h2>
+                <div class="app-showcase">
+                    <div class="phone-screen">
+                        <img src="screen 1.svg" alt="Budget screen">
+                    </div>
+                    <div class="phone-screen main-screen">
+                        <img src="screen 2.svg" alt="Transactions screen">
+                        <div class="screen-description">
+                            <h3>Latest transaction history</h3>
+                            <p>Enim, et amet praesent pharetra. Vel quis viverra tempus amet sed. Arcu sociis tristique quis vel faucibus tincidunt consectetur urna.</p>
+                        </div>
+                    </div>
+                    <div class="phone-screen">
+                        <img src="screen 3.svg" alt="Transfer screen">
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <section class="features">
-        <!--featrues content-->
-    </section>
-
-    <section class="testimonials">
-        <!--testiomonials section content-->
-    </section>
-
-    <section class="faq">
-        <!--faq section content-->
-    </section>
-
-    <footer>
-        <!--footer content-->
-    </footer>
-
-    <script scrpt=" script.js"></script>
-</body>
-</html>
+        <section id="app-features">
+            <div class="container">
+                <div class="feature-row">
+                    <div class="feature-text">
+                        <h2>Make your money transfer simple and clear</h2>
+                        <ul>
+                            <li>Banking transactions are free for you</li>
+                            <li>No monthly cash commission</li>
+                            <li>Manage payments and transactions online</li>
+                        </ul>
+                        <a href="#" class="learn-more">Learn more <span class="arrow">→</span></a>
+                    </div>
+                    <div class="feature-images">
+                        <img src="app screen.svg" alt="App screen" class="main-screen">
+                    </div>
+                </div>
+                <div class="feature-row reverse">
+                    <div class="feature-text">
+                        <h2>Receive payment from international bank details</h2>
+                        <ul>
+                            <li>Manage your payments online</li>
+                            <li>A elementum viveira et maecenas sem praesium etiam nector faucibus</li>
+                        </ul>
+                        <a href="#" class="learn-more">Learn more <span class="arrow">→</span></a>
+                    </div>
+                    <div class="feature-images">
+                        <img src="contacts.svg" alt="Contacts and card screen" class="main-screen">
+                    </div>
+                </div>
+            </div>
+        </section>
+      
+    </main>  
+            </body>
+            </html>
+            
